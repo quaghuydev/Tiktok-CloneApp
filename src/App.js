@@ -3,7 +3,6 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import { publicRoutes } from '~/routes';
 import { DefaultLayout } from './components/Layout';
 function App() {
-    console.log(publicRoutes);
     return (
         <Router>
             <div className="App">
